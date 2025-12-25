@@ -32,6 +32,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".TetherPromptActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TetherLite.Transparent"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:launchMode="singleInstance" />
 
         <service
             android:name=".core.TetherAccessibilityService"
