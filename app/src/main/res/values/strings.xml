@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">TetherLite</string>
-    <string name="tether_active">Active</string>
-    <string name="tether_inactive">Inactive</string>
+    <string name="accessibility_service_description">TetherLite uses Accessibility Service to automatically toggle USB Tethering in Settings.</string>
     <string name="widget_toggle_desc">Toggle USB Tethering</string>
 </resources>
